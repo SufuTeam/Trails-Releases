@@ -1,0 +1,25 @@
+name: 功能建议
+description: 分享希望 Trails 改进的使用场景
+title: "[建议] "
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 适用平台
+      options: [Android 和 iOS, Android, iOS / iPadOS]
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景与问题
+      description: 请描述希望完成什么、目前遇到了什么不便。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 期望的改进
+    validations:
+      required: true

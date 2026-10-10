@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Android 安装（蒲公英）
+    url: https://www.pgyer.com/trails-android-x
+    about: GitHub 下载不便时可以使用此入口。
+  - name: iOS 安装（TestFlight）
+    url: https://testflight.apple.com/join/Zn7j9ugp
+    about: 使用 TestFlight 安装或更新测试版。

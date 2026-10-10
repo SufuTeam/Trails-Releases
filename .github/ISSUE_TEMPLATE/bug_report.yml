@@ -1,0 +1,48 @@
+name: 问题反馈
+description: 报告 Android 或 iOS 的使用问题
+title: "[问题] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "感谢反馈。此页面公开可见，请勿上传密码、恢复码、私人照片或完整轨迹。"
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options: [Android, iOS / iPadOS]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App 版本与构建号
+      placeholder: "例如 0.28.6（43），可在设置或安装页面查看"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备与系统版本
+      placeholder: "例如 Samsung Galaxy / Android 16，或 iPhone / iOS 26"
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: 安装来源
+      options: [蒲公英, GitHub, TestFlight, 开发测试包]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 如何复现
+      description: 请说明操作步骤、预期结果，以及实际发生的情况。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或补充说明
+      description: 请先遮挡账号信息、私人照片、住址和具体轨迹位置。
