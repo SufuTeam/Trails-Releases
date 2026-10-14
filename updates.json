@@ -2,21 +2,17 @@
   "schemaVersion": 1,
   "android": {
     "applicationId": "com.sufu.trails",
-    "version": "0.28.7",
-    "build": 47,
+    "version": "0.28.8",
+    "build": 48,
     "channel": "android-apk",
     "available": true,
     "downloadURL": "https://www.pgyer.com/trails-android-x",
-    "alternateURL": "https://github.com/SufuTeam/Trails-Releases/releases/download/android-0.28.7-47/Trails-0.28.7-47.apk",
-    "sha256": "0917ab53703df880728d9461a1b3126a00dce113b976206fa4cbba553bb25fe4",
+    "alternateURL": "https://github.com/SufuTeam/Trails-Releases/releases/download/android-0.28.8-48/Trails-0.28.8-48.apk",
+    "sha256": "522c888c1a5fbb65cbb7318f1ca2d612cb43462d1cf60d5a662e6842938eedad",
     "certificateSHA256": "a2cb2738991735864cec7f177960f4d3d8c51bb7dd63c8538d67e5c78894b8e5",
     "notes": [
-      "首次进入发现页等待定位授权；允许后按当前位置加载，拒绝后可浏览全部路线。",
-      "每次冷启动在首页空闲时检查更新；设置改为直接“检查更新”，有更新弹窗，无更新显示轻提示。",
-      "优化 Android 活动页布局、右上角按钮、列表加载和大字体显示。",
-      "关注推荐成员后即时移除并提示成功；活动通知支持刷新，关注通知发送给被关注者。",
-      "统一主要页面骨架加载，移除地图信息按钮和评分后的评论数量，优化路线指标对齐。",
-      "上线 90 天登录保持与自动续期，改善网络中断或续期响应丢失时的登录恢复。"
+      "精简更新弹窗：移除按钮上方的下载状态、MB 大小和下载完成说明。",
+      "修正下载进度按钮内图标、文字和百分比的对齐，兼容大字体；下载完成后直接显示“安装更新”。"
     ]
   },
   "ios": {
