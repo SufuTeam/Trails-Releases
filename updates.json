@@ -2,17 +2,22 @@
   "schemaVersion": 1,
   "android": {
     "applicationId": "com.sufu.trails",
-    "version": "0.28.8",
-    "build": 48,
+    "version": "0.28.9",
+    "build": 49,
     "channel": "android-apk",
     "available": true,
     "downloadURL": "https://www.pgyer.com/trails-android-x",
-    "alternateURL": "https://github.com/SufuTeam/Trails-Releases/releases/download/android-0.28.8-48/Trails-0.28.8-48.apk",
-    "sha256": "522c888c1a5fbb65cbb7318f1ca2d612cb43462d1cf60d5a662e6842938eedad",
+    "alternateURL": "https://github.com/SufuTeam/Trails-Releases/releases/download/android-0.28.9-49/Trails-0.28.9-49.apk",
+    "sha256": "3771a8ea64c99ba03cb9a6f85592abc75dc4d07edde4a4c96d128f14ceb4b5b0",
     "certificateSHA256": "a2cb2738991735864cec7f177960f4d3d8c51bb7dd63c8538d67e5c78894b8e5",
     "notes": [
-      "精简更新弹窗：移除按钮上方的下载状态、MB 大小和下载完成说明。",
-      "修正下载进度按钮内图标、文字和百分比的对齐，兼容大字体；下载完成后直接显示“安装更新”。"
+      "Trails Android 0.28.9 更新（2026-10-14）：",
+      "1. 同步近期已发布的加载占位、地图、登录状态续期、首次授权与活动关注界面改进。",
+      "2. 精简升级弹窗中的重复下载说明，修正进度按钮内图标、文字和百分比的对齐；下载完成后直接显示“安装更新”。",
+      "3. 完善活动与路线分享卡片，支持活动透明图片导出、模板切换和系统分享；本机活动图片隐藏起终点附近轨迹。",
+      "4. 完善路线地图的全览、定位、去起点、路线切换与一次开始记录，优化暂停、继续及六项运动数据展示。",
+      "5. 衔接结束确认、保存、可跳过评价及活动详情；未收藏的参考路线资料也可随活动保存和恢复。",
+      "6. 本版同步到蒲公英及 GitHub，继续使用原应用签名和下载入口。"
     ]
   },
   "ios": {
