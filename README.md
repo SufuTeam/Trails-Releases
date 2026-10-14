@@ -4,10 +4,10 @@ Trails 是一个用于记录徒步、管理路线和收藏、同步个人户外�
 
 | 平台 | 安装入口 | 更新方式 |
 | --- | --- | --- |
-| Android | [蒲公英下载](https://www.pgyer.com/trails-android-x) · [GitHub 安装包](https://github.com/SufuTeam/Trails-Releases/releases/latest) | 下载新版 APK，由 Android 系统确认安装 |
+| Android | [GitHub 最新安装包](https://github.com/SufuTeam/Trails-Releases/releases/latest) | 下载新版 APK，由 Android 系统确认安装 |
 | iPhone / iPad | [加入 TestFlight](https://testflight.apple.com/join/Zn7j9ugp) | 在 TestFlight 更新，也可在 TestFlight 中开启自动更新 |
 
-Android 的蒲公英和 GitHub 渠道提供相同的正式签名 APK。GitHub 下载页面中，请选择以 `.apk` 结尾的附件；`Source code` 压缩包是本仓库的说明文件，不能安装。
+Android 最新测试版以 GitHub Release 为准，沿用正式签名，可覆盖安装现有版本。GitHub 下载页面中，请选择以 `.apk` 结尾的附件；`Source code` 压缩包是本仓库的说明文件，不能安装。
 
 ## 安装与升级
 
@@ -15,7 +15,7 @@ Android 的蒲公英和 GitHub 渠道提供相同的正式签名 APK。GitHub �
 - Android 首次从浏览器安装时，按系统提示允许该浏览器安装应用，并自行确认安装。
 - 旧版 Android `com.celtis.trails` 与当前应用是两个独立应用，不能直接覆盖，也不自动继承本地资料。请保留旧应用直到确认资料已处理妥当。
 - iOS 测试版通过 TestFlight 安装。GitHub 不提供可供普通 iPhone 直接安装的 IPA。
-- 如果 GitHub 下载不便，可以使用蒲公英入口。
+- [蒲公英](https://www.pgyer.com/trails-android-x) 是独立分发渠道，构建号可能与 GitHub 不同，请以该渠道页面标注为准。
 
 ## 反馈问题和提出建议
 
