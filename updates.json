@@ -2,22 +2,21 @@
   "schemaVersion": 1,
   "android": {
     "applicationId": "com.sufu.trails",
-    "version": "0.28.6",
-    "build": 46,
+    "version": "0.28.7",
+    "build": 47,
     "channel": "android-apk",
     "available": true,
     "downloadURL": "https://www.pgyer.com/trails-android-x",
-    "alternateURL": "https://github.com/SufuTeam/Trails-Releases/releases/download/android-0.28.6-46/Trails-0.28.6-46.apk",
-    "sha256": "99ceb7d216e8105755fad28beb90fe44ff298c375ef4543d25f4b96334699a59",
+    "alternateURL": "https://github.com/SufuTeam/Trails-Releases/releases/download/android-0.28.7-47/Trails-0.28.7-47.apk",
+    "sha256": "0917ab53703df880728d9461a1b3126a00dce113b976206fa4cbba553bb25fe4",
     "certificateSHA256": "a2cb2738991735864cec7f177960f4d3d8c51bb7dd63c8538d67e5c78894b8e5",
     "notes": [
-      "Trails Android 0.28.6 更新（2026-10-12）：",
-      "1. 新增“版本与更新”、公开发布记录和反馈入口，支持手动检查更新及非记录期间的自动更新提醒。",
-      "2. 升级弹窗可直接显示下载进度、重试和安装操作；完善安装来源授权、返回恢复及安装包完整性检查。",
-      "3. 调整个人主页与设置页面，统一分组、工具栏和留白，改善下拉刷新、账号状态展示及新增分组输入。",
-      "4. 完善个人资料、社区、活动和路线管理页面的状态栏、系统导航栏与键盘避让，优化大字和横屏布局。",
-      "5. 优化导航返回、地图回中图标及准备/记录面板，统一同类页面的视觉细节。",
-      "6. 精简路线详情与分享内容，优化地图预览、路线封面和公共路线加载展示。"
+      "首次进入发现页等待定位授权；允许后按当前位置加载，拒绝后可浏览全部路线。",
+      "每次冷启动在首页空闲时检查更新；设置改为直接“检查更新”，有更新弹窗，无更新显示轻提示。",
+      "优化 Android 活动页布局、右上角按钮、列表加载和大字体显示。",
+      "关注推荐成员后即时移除并提示成功；活动通知支持刷新，关注通知发送给被关注者。",
+      "统一主要页面骨架加载，移除地图信息按钮和评分后的评论数量，优化路线指标对齐。",
+      "上线 90 天登录保持与自动续期，改善网络中断或续期响应丢失时的登录恢复。"
     ]
   },
   "ios": {
